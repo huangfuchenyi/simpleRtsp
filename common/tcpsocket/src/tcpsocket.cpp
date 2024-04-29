@@ -1,6 +1,6 @@
 #include "tcpsocket.h"
 TcpSocket::TcpSocket(SOCKET_FD sockfd)
-	sockfd_(sockfd)
+	:sockfd_(sockfd)
 {
 	printf("create TcpSocket server\n");
 }
